@@ -8,5 +8,4 @@ target 'SwiftyMockyDemoTests' do
   inherit! :complete
 
   pod 'SwiftyMocky'
-  pod 'Fakery'
 end

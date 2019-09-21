@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -218,7 +218,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = EC0319562CD9F92FAD3D8DF9C29A4DAF /* Build configuration list for PBXProject "SwiftyMocky" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
