@@ -10,5 +10,3 @@ import SwiftyMocky
 
 //sourcery: AutoMockable
 extension User {}
-//sourcery: AutoMockable
-extension UserRepository {}

@@ -10,4 +10,6 @@ import Foundation
 protocol User {
     var name: String { get }
     var age: Int { get }
+    
+    func profile() -> String
 }

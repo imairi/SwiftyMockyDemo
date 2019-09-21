@@ -11,18 +11,34 @@ import SwiftyMocky
 import Fakery
 
 class SwiftyMockyDemoTests: XCTestCase {
-
+    
+    let user = UserMock()
+    
     override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        user.given(.name(getter: "imairi"))
+        user.given(.age(getter: 32))
+        user.given(.profile(willReturn: "いまいりようすけ 32歳"))
     }
 
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func test_プロフィールが3回表示されること() {
+        let account = Account(user: user)
+        account.displayProfileThreeTimes()
+        
+        user.verify(.profile(), count: 3)
+        
+        
+//        user.verify(.profile(), count: .once)
+//        user.verify(.profile(), count: .never)
+//        user.verify(.profile(), count: .more(than: 2))
+//        user.verify(.profile(), count: .custom({ count -> Bool in
+//            guard self.user.age < 30 && count == 1 else {
+//                return true
+//            }
+//            return false
+//        }))
     }
 
 }

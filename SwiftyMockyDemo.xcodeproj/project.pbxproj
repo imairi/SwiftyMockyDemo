@@ -14,10 +14,10 @@
 		B971CF0F2335D857001D50F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B971CF0E2335D857001D50F6 /* Assets.xcassets */; };
 		B971CF122335D857001D50F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B971CF102335D857001D50F6 /* LaunchScreen.storyboard */; };
 		B971CF1D2335D857001D50F6 /* SwiftyMockyDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B971CF1C2335D857001D50F6 /* SwiftyMockyDemoTests.swift */; };
-		B971CFD02335DE9D001D50F6 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B971CFCF2335DE9D001D50F6 /* UserRepository.swift */; };
 		B971CFD22335DED4001D50F6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B971CFD12335DED4001D50F6 /* User.swift */; };
 		B971CFD62335DF4E001D50F6 /* MockAnnotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B971CFD52335DF4E001D50F6 /* MockAnnotations.swift */; };
 		B971CFDA2335E480001D50F6 /* Mock.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B971CFD92335E480001D50F6 /* Mock.generated.swift */; };
+		B971CFDC2335EC54001D50F6 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = B971CFDB2335EC54001D50F6 /* Account.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,10 +43,10 @@
 		B971CF182335D857001D50F6 /* SwiftyMockyDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyMockyDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B971CF1C2335D857001D50F6 /* SwiftyMockyDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyMockyDemoTests.swift; sourceTree = "<group>"; };
 		B971CF1E2335D857001D50F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B971CFCF2335DE9D001D50F6 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
 		B971CFD12335DED4001D50F6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B971CFD52335DF4E001D50F6 /* MockAnnotations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAnnotations.swift; sourceTree = "<group>"; };
 		B971CFD92335E480001D50F6 /* Mock.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mock.generated.swift; sourceTree = "<group>"; };
+		B971CFDB2335EC54001D50F6 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		BDE6C853292153498F874EC4 /* Pods-SwiftyMockyDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyMockyDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyMockyDemoTests/Pods-SwiftyMockyDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,7 +126,7 @@
 		B971CFCD2335DABE001D50F6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B971CFD32335DEFE001D50F6 /* Model */,
+				B971CFDB2335EC54001D50F6 /* Account.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -134,17 +134,9 @@
 		B971CFCE2335DAD2001D50F6 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				B971CFCF2335DE9D001D50F6 /* UserRepository.swift */,
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
-		B971CFD32335DEFE001D50F6 /* Model */ = {
-			isa = PBXGroup;
-			children = (
 				B971CFD12335DED4001D50F6 /* User.swift */,
 			);
-			path = Model;
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		B971CFD42335DF42001D50F6 /* Mock */ = {
@@ -308,10 +300,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B971CFDC2335EC54001D50F6 /* Account.swift in Sources */,
 				B971CFD22335DED4001D50F6 /* User.swift in Sources */,
 				B971CF0A2335D855001D50F6 /* ViewController.swift in Sources */,
 				B971CF082335D855001D50F6 /* AppDelegate.swift in Sources */,
-				B971CFD02335DE9D001D50F6 /* UserRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
