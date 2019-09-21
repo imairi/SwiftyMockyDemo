@@ -29,7 +29,6 @@ class SwiftyMockyDemoTests: XCTestCase {
         
         user.verify(.profile(), count: 3)
         
-        
 //        user.verify(.profile(), count: .once)
 //        user.verify(.profile(), count: .never)
 //        user.verify(.profile(), count: .more(than: 2))
@@ -40,5 +39,25 @@ class SwiftyMockyDemoTests: XCTestCase {
 //            return false
 //        }))
     }
+    
+    func test_正しい年齢で更新されていること() {
+        let account = Account(user: user)
+        account.incrementAge()
+        
+        // 引数もチェックする
+        user.verify(.update(age: .value(33)), count: 1)
+        
+        // 引数はチェックしない
+        user.verify(UserMock.Verify.update(age: .any), count: 1)
+    }
 
+    func test_クロージャーを呼ぶ() {
+        let account = Account(user: user)
+        
+        user.perform(.update(name: .any, completion: .any, perform: { (name, completion) in
+            completion()
+        }))
+        
+        account.update(name: "てすと")
+    }
 }

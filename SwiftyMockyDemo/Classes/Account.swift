@@ -19,4 +19,14 @@ final class Account {
             print("\(user.profile())")
         }
     }
+    
+    func incrementAge() {
+        user.update(age: user.age + 1)
+    }
+    
+    func update(name: String) {
+        user.update(name: name) {
+            print("名前をかえました")
+        }
+    }
 }

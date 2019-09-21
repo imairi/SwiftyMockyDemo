@@ -12,4 +12,6 @@ protocol User {
     var age: Int { get }
     
     func profile() -> String
+    func update(age: Int)
+    func update(name: String, completion:(() -> Void))
 }

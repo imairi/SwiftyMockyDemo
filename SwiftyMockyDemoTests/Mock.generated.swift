@@ -96,15 +96,36 @@ open class UserMock: User, Mock {
 		return __value
     }
 
+    open func update(age: Int) {
+        addInvocation(.m_update__age_age(Parameter<Int>.value(`age`)))
+		let perform = methodPerformValue(.m_update__age_age(Parameter<Int>.value(`age`))) as? (Int) -> Void
+		perform?(`age`)
+    }
+
+    open func update(name: String, completion:(() -> Void)) {
+        addInvocation(.m_update__name_namecompletion_completion(Parameter<String>.value(`name`), Parameter<() -> Void>.any))
+		let perform = methodPerformValue(.m_update__name_namecompletion_completion(Parameter<String>.value(`name`), Parameter<() -> Void>.any)) as? (String, (() -> Void)) -> Void
+		perform?(`name`, `completion`)
+    }
+
 
     fileprivate enum MethodType {
         case m_profile
+        case m_update__age_age(Parameter<Int>)
+        case m_update__name_namecompletion_completion(Parameter<String>, Parameter<() -> Void>)
         case p_name_get
         case p_age_get
 
         static func compareParameters(lhs: MethodType, rhs: MethodType, matcher: Matcher) -> Bool {
             switch (lhs, rhs) {
             case (.m_profile, .m_profile):
+                return true 
+            case (.m_update__age_age(let lhsAge), .m_update__age_age(let rhsAge)):
+                guard Parameter.compare(lhs: lhsAge, rhs: rhsAge, with: matcher) else { return false } 
+                return true 
+            case (.m_update__name_namecompletion_completion(let lhsName, let lhsCompletion), .m_update__name_namecompletion_completion(let rhsName, let rhsCompletion)):
+                guard Parameter.compare(lhs: lhsName, rhs: rhsName, with: matcher) else { return false } 
+                guard Parameter.compare(lhs: lhsCompletion, rhs: rhsCompletion, with: matcher) else { return false } 
                 return true 
             case (.p_name_get,.p_name_get): return true
             case (.p_age_get,.p_age_get): return true
@@ -115,6 +136,8 @@ open class UserMock: User, Mock {
         func intValue() -> Int {
             switch self {
             case .m_profile: return 0
+            case let .m_update__age_age(p0): return p0.intValue
+            case let .m_update__name_namecompletion_completion(p0, p1): return p0.intValue + p1.intValue
             case .p_name_get: return 0
             case .p_age_get: return 0
             }
@@ -152,6 +175,8 @@ open class UserMock: User, Mock {
         fileprivate var method: MethodType
 
         public static func profile() -> Verify { return Verify(method: .m_profile)}
+        public static func update(age: Parameter<Int>) -> Verify { return Verify(method: .m_update__age_age(`age`))}
+        public static func update(name: Parameter<String>, completion: Parameter<() -> Void>) -> Verify { return Verify(method: .m_update__name_namecompletion_completion(`name`, `completion`))}
         public static var name: Verify { return Verify(method: .p_name_get) }
         public static var age: Verify { return Verify(method: .p_age_get) }
     }
@@ -162,6 +187,12 @@ open class UserMock: User, Mock {
 
         public static func profile(perform: @escaping () -> Void) -> Perform {
             return Perform(method: .m_profile, performs: perform)
+        }
+        public static func update(age: Parameter<Int>, perform: @escaping (Int) -> Void) -> Perform {
+            return Perform(method: .m_update__age_age(`age`), performs: perform)
+        }
+        public static func update(name: Parameter<String>, completion: Parameter<() -> Void>, perform: @escaping (String, (() -> Void)) -> Void) -> Perform {
+            return Perform(method: .m_update__name_namecompletion_completion(`name`, `completion`), performs: perform)
         }
     }
 
