@@ -1,0 +1,28 @@
+BUILD_CONFIGURATIONS:
+  Debug: :debug
+  Release: :release
+CACHE_KEYS:
+  Fakery:
+    BUILD_SETTINGS_CHECKSUM:
+      Fakery: 1e0ed705cac4e5e10030a56e1e700484
+    CHECKSUM: d3380c4aa1efe7631c0831d7e26aa9db4491f014
+    SPECS:
+      - Fakery (4.1.1)
+  Pods-SwiftyMockyDemoTests:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: 9438868025cab7c25a8c3738a96e260a
+      Release: 9438868025cab7c25a8c3738a96e260a
+  Sourcery:
+    BUILD_SETTINGS_CHECKSUM:
+      Sourcery: c1136308d70e06a3c0897702b508cc5f
+    CHECKSUM: 3ed61be7c8a1218fce349266139379dba477efe0
+    SPECS:
+      - Sourcery (0.17.0)
+  SwiftyMocky:
+    BUILD_SETTINGS_CHECKSUM:
+      SwiftyMocky: 24b7ac1b7ddfd8de5f31ea6df4889e08
+    CHECKSUM: 7e4e7088166c013559a26ccc8b8d6508c3730826
+    SPECS:
+      - SwiftyMocky (3.3.4)
+      - SwiftyMocky/Core (3.3.4)
+OBJECT_VERSION: 50

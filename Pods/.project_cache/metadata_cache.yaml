@@ -1,0 +1,16 @@
+Fakery:
+  LABEL: Fakery
+  PROJECT_PATH: "/Users/imairiyousuke/git/SwiftyMockyDemo/Pods/Fakery.xcodeproj"
+  UUID: E2EEC6543191E68B65EE8D38051AD724
+Pods-SwiftyMockyDemoTests:
+  LABEL: Pods-SwiftyMockyDemoTests
+  PROJECT_PATH: "/Users/imairiyousuke/git/SwiftyMockyDemo/Pods/Pods.xcodeproj"
+  UUID: A9752DAB0D7E8873871F9FAB93B04810
+Sourcery:
+  LABEL: Sourcery
+  PROJECT_PATH: "/Users/imairiyousuke/git/SwiftyMockyDemo/Pods/Sourcery.xcodeproj"
+  UUID: D2974FB9E48C58D0AD044D5325F700EC
+SwiftyMocky:
+  LABEL: SwiftyMocky
+  PROJECT_PATH: "/Users/imairiyousuke/git/SwiftyMockyDemo/Pods/SwiftyMocky.xcodeproj"
+  UUID: 434045026816890B35EE3D71D6CF333A

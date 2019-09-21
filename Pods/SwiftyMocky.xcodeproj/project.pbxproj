@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CE0452FF26AE44CB6A7F8C95B182EB4 /* Parameter+Literals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33872A8F0990E7DCAB797D433AC264D6 /* Parameter+Literals.swift */; };
+		28A26C0D7D2CF3538BE3F8DAC8A38551 /* SwiftyMockyTestObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B8623438AC81604633334C8912D82 /* SwiftyMockyTestObserver.swift */; };
+		3B7F1BA12F7EC397AA5DA88C8281F90A /* Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839D2DD013B5970463A3073B222672F3 /* Count.swift */; };
+		47D94300034C32B3B767A184D1D53870 /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52615939DE2652A67402FA0EE6635581 /* Mock.swift */; };
+		51265AAEE3494AF80A93190CEE91B472 /* Policies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775E0732CD531A207417326E0A02F081 /* Policies.swift */; };
+		52C00112EDB134675EA432E93E0C4382 /* Mock.swifttemplate in Resources */ = {isa = PBXBuildFile; fileRef = 3E14B2BA90BADE8F9E736D9BB1CDA845 /* Mock.swifttemplate */; };
+		5B4344BC4AD5307D2CB28347A0F7B38B /* Matcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA02532221AEFB82C36B7B316F4304E /* Matcher.swift */; };
+		6D51D88DD9A18D5EA45B56F0567F9FE6 /* MockyAssert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F0D2F10BE56D5A6EF73A9CAC4D51F8 /* MockyAssert.swift */; };
+		7FA9CE38C12FA6BDCE5AC409166EBC18 /* Countable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD533E5CCBEBB2FDA6D9C3483C0FD46B /* Countable.swift */; };
+		8FD531ADF19E8E0C81072FA84589D0F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4DD2D98506C45AF63F766170B904E10 /* Foundation.framework */; };
+		9C693C4C06575E13AA9FE6544F68C38F /* SwiftyMocky-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7D6E2A15BDA60EDC84372845E606EF /* SwiftyMocky-dummy.m */; };
+		C17857151AD812F2A77420DC3A156400 /* SwiftyMocky-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C89C3EC7003A574A52A87ABC2FD88234 /* SwiftyMocky-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C743ADC1C4343440429F9FAD71A346F2 /* Parameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1185FBACFD054DFA0277864B368145C6 /* Parameter.swift */; };
+		CD192C67532A03D9C21A7C8E4F53F897 /* Mock+Assertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64866F862979452A6E94F2EC870B1C7A /* Mock+Assertions.swift */; };
+		CD8F11A2D82D1212AB590BCDCA206CB0 /* CustomAssertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B15A498BEBEDDC1D24AB0C4D2942F /* CustomAssertions.swift */; };
+		D595DF6D887AA9502214FA061D886FD8 /* ArgumentCaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAB987EA626F0665CBB2AB3C82CEE12 /* ArgumentCaptor.swift */; };
+		E18C4DCD5BEC0F3FFBD8B38A52AC2310 /* GenericAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E1C41AFFD27D5E201BFE7319BE346 /* GenericAttribute.swift */; };
+		E3218A7882373C093292073CF9403D82 /* Stubbing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF6BD083703C1D5D2D928026D2A79CD /* Stubbing.swift */; };
+		F9083778BBC1C960C896222A7230144B /* get_sourcery.sh in Resources */ = {isa = PBXBuildFile; fileRef = 0EBBF802F5600F76E7E864ED2BC9B1B8 /* get_sourcery.sh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93FCAFDE39B73D0B18AFA2766A7204E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C405EC1300E9F8CAFF38EDEDC86BF67 /* Sourcery.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2974FB9E48C58D0AD044D5325F700EC;
+			remoteInfo = Sourcery;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EBBF802F5600F76E7E864ED2BC9B1B8 /* get_sourcery.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = get_sourcery.sh; sourceTree = "<group>"; };
+		1185FBACFD054DFA0277864B368145C6 /* Parameter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parameter.swift; path = Sources/Classes/Parameter.swift; sourceTree = "<group>"; };
+		2C8B8623438AC81604633334C8912D82 /* SwiftyMockyTestObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyMockyTestObserver.swift; path = Sources/Classes/SwiftyMockyTestObserver.swift; sourceTree = "<group>"; };
+		33872A8F0990E7DCAB797D433AC264D6 /* Parameter+Literals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Parameter+Literals.swift"; path = "Sources/Classes/Parameter+Literals.swift"; sourceTree = "<group>"; };
+		3A7B448A27E0062415F85B6313AC03D9 /* SwiftyMocky.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyMocky.xcconfig; sourceTree = "<group>"; };
+		3B6E1C41AFFD27D5E201BFE7319BE346 /* GenericAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GenericAttribute.swift; path = Sources/Classes/GenericAttribute.swift; sourceTree = "<group>"; };
+		3C405EC1300E9F8CAFF38EDEDC86BF67 /* Sourcery */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Sourcery; path = Sourcery.xcodeproj; sourceTree = "<group>"; };
+		3E14B2BA90BADE8F9E736D9BB1CDA845 /* Mock.swifttemplate */ = {isa = PBXFileReference; includeInIndex = 1; name = Mock.swifttemplate; path = Sources/Templates/Mock.swifttemplate; sourceTree = "<group>"; };
+		446B15A498BEBEDDC1D24AB0C4D2942F /* CustomAssertions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomAssertions.swift; path = Sources/Classes/CustomAssertions.swift; sourceTree = "<group>"; };
+		52615939DE2652A67402FA0EE6635581 /* Mock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mock.swift; path = Sources/Classes/Mock.swift; sourceTree = "<group>"; };
+		64866F862979452A6E94F2EC870B1C7A /* Mock+Assertions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Mock+Assertions.swift"; path = "Sources/Classes/Mock+Assertions.swift"; sourceTree = "<group>"; };
+		67F0D2F10BE56D5A6EF73A9CAC4D51F8 /* MockyAssert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MockyAssert.swift; path = Sources/Classes/MockyAssert.swift; sourceTree = "<group>"; };
+		7147D3E77951DBC34135801E2AB07530 /* SwiftyMocky-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyMocky-Info.plist"; sourceTree = "<group>"; };
+		775E0732CD531A207417326E0A02F081 /* Policies.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Policies.swift; path = Sources/Classes/Policies.swift; sourceTree = "<group>"; };
+		839D2DD013B5970463A3073B222672F3 /* Count.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Count.swift; path = Sources/Classes/Count.swift; sourceTree = "<group>"; };
+		8797D6BD5B388351B8F2565C904DBCE9 /* SwiftyMocky.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyMocky.framework; path = SwiftyMocky.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC7D6E2A15BDA60EDC84372845E606EF /* SwiftyMocky-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyMocky-dummy.m"; sourceTree = "<group>"; };
+		AD533E5CCBEBB2FDA6D9C3483C0FD46B /* Countable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Countable.swift; path = Sources/Classes/Countable.swift; sourceTree = "<group>"; };
+		C4DD2D98506C45AF63F766170B904E10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C59ADEAB5B1C8AA01656F2CAF41ECEBA /* SwiftyMocky-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyMocky-prefix.pch"; sourceTree = "<group>"; };
+		C89C3EC7003A574A52A87ABC2FD88234 /* SwiftyMocky-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyMocky-umbrella.h"; sourceTree = "<group>"; };
+		DDAB987EA626F0665CBB2AB3C82CEE12 /* ArgumentCaptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArgumentCaptor.swift; path = Sources/Classes/ArgumentCaptor.swift; sourceTree = "<group>"; };
+		DFF6BD083703C1D5D2D928026D2A79CD /* Stubbing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stubbing.swift; path = Sources/Classes/Stubbing.swift; sourceTree = "<group>"; };
+		EBA02532221AEFB82C36B7B316F4304E /* Matcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Matcher.swift; path = Sources/Classes/Matcher.swift; sourceTree = "<group>"; };
+		F275B36DBC1A3C8708280C02AD8C5941 /* SwiftyMocky.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyMocky.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20DF1B8085653AE7283A2C84FFA671AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FD531ADF19E8E0C81072FA84589D0F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E574CD83ED7A558F86E3C811BCC57A1 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				3C405EC1300E9F8CAFF38EDEDC86BF67 /* Sourcery */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		81016325DA6E5020E09C9860CCE71E25 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0EBBF802F5600F76E7E864ED2BC9B1B8 /* get_sourcery.sh */,
+				3E14B2BA90BADE8F9E736D9BB1CDA845 /* Mock.swifttemplate */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9AFF1F83EB560DA0D125726E63686ED7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DDAB987EA626F0665CBB2AB3C82CEE12 /* ArgumentCaptor.swift */,
+				839D2DD013B5970463A3073B222672F3 /* Count.swift */,
+				AD533E5CCBEBB2FDA6D9C3483C0FD46B /* Countable.swift */,
+				446B15A498BEBEDDC1D24AB0C4D2942F /* CustomAssertions.swift */,
+				3B6E1C41AFFD27D5E201BFE7319BE346 /* GenericAttribute.swift */,
+				EBA02532221AEFB82C36B7B316F4304E /* Matcher.swift */,
+				52615939DE2652A67402FA0EE6635581 /* Mock.swift */,
+				64866F862979452A6E94F2EC870B1C7A /* Mock+Assertions.swift */,
+				67F0D2F10BE56D5A6EF73A9CAC4D51F8 /* MockyAssert.swift */,
+				1185FBACFD054DFA0277864B368145C6 /* Parameter.swift */,
+				33872A8F0990E7DCAB797D433AC264D6 /* Parameter+Literals.swift */,
+				775E0732CD531A207417326E0A02F081 /* Policies.swift */,
+				DFF6BD083703C1D5D2D928026D2A79CD /* Stubbing.swift */,
+				2C8B8623438AC81604633334C8912D82 /* SwiftyMockyTestObserver.swift */,
+				81016325DA6E5020E09C9860CCE71E25 /* Resources */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		A2FA432294428B7688FBF6DEFBAFFB5B = {
+			isa = PBXGroup;
+			children = (
+				5E574CD83ED7A558F86E3C811BCC57A1 /* Dependencies */,
+				BCB64AD549DAF6EC4F16F3D155DC89DB /* Frameworks */,
+				E5B15568704F068FF960704A6AC567B5 /* Products */,
+				CC18FD05C29D633910D965CB04DE9551 /* SwiftyMocky */,
+			);
+			sourceTree = "<group>";
+		};
+		BCB64AD549DAF6EC4F16F3D155DC89DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F308C659EB4CFEC087A9E2611E77FB50 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC18FD05C29D633910D965CB04DE9551 /* SwiftyMocky */ = {
+			isa = PBXGroup;
+			children = (
+				9AFF1F83EB560DA0D125726E63686ED7 /* Core */,
+				E1207924B457888062A46F6B64343EB5 /* Support Files */,
+			);
+			name = SwiftyMocky;
+			path = SwiftyMocky;
+			sourceTree = "<group>";
+		};
+		E1207924B457888062A46F6B64343EB5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F275B36DBC1A3C8708280C02AD8C5941 /* SwiftyMocky.modulemap */,
+				3A7B448A27E0062415F85B6313AC03D9 /* SwiftyMocky.xcconfig */,
+				AC7D6E2A15BDA60EDC84372845E606EF /* SwiftyMocky-dummy.m */,
+				7147D3E77951DBC34135801E2AB07530 /* SwiftyMocky-Info.plist */,
+				C59ADEAB5B1C8AA01656F2CAF41ECEBA /* SwiftyMocky-prefix.pch */,
+				C89C3EC7003A574A52A87ABC2FD88234 /* SwiftyMocky-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyMocky";
+			sourceTree = "<group>";
+		};
+		E5B15568704F068FF960704A6AC567B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8797D6BD5B388351B8F2565C904DBCE9 /* SwiftyMocky.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F308C659EB4CFEC087A9E2611E77FB50 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C4DD2D98506C45AF63F766170B904E10 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DB0CE462559D0DA4EF58AC8B5D382F02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C17857151AD812F2A77420DC3A156400 /* SwiftyMocky-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		434045026816890B35EE3D71D6CF333A /* SwiftyMocky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046DB16522C17D970111680EC07C6064 /* Build configuration list for PBXNativeTarget "SwiftyMocky" */;
+			buildPhases = (
+				DB0CE462559D0DA4EF58AC8B5D382F02 /* Headers */,
+				48450E9816CE1C257D40BBD371B797ED /* Sources */,
+				20DF1B8085653AE7283A2C84FFA671AA /* Frameworks */,
+				6E9A0A8C35C21FABD99FD8BD1B0636BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1737539F40F6D6437982E606D89E2AB /* PBXTargetDependency */,
+			);
+			name = SwiftyMocky;
+			productName = SwiftyMocky;
+			productReference = 8797D6BD5B388351B8F2565C904DBCE9 /* SwiftyMocky.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD06BDC9B0332D3D462A4AC0D4FC74EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = EC0319562CD9F92FAD3D8DF9C29A4DAF /* Build configuration list for PBXProject "SwiftyMocky" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A2FA432294428B7688FBF6DEFBAFFB5B;
+			productRefGroup = E5B15568704F068FF960704A6AC567B5 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = 3C405EC1300E9F8CAFF38EDEDC86BF67 /* Sourcery */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				434045026816890B35EE3D71D6CF333A /* SwiftyMocky */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E9A0A8C35C21FABD99FD8BD1B0636BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9083778BBC1C960C896222A7230144B /* get_sourcery.sh in Resources */,
+				52C00112EDB134675EA432E93E0C4382 /* Mock.swifttemplate in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48450E9816CE1C257D40BBD371B797ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D595DF6D887AA9502214FA061D886FD8 /* ArgumentCaptor.swift in Sources */,
+				3B7F1BA12F7EC397AA5DA88C8281F90A /* Count.swift in Sources */,
+				7FA9CE38C12FA6BDCE5AC409166EBC18 /* Countable.swift in Sources */,
+				CD8F11A2D82D1212AB590BCDCA206CB0 /* CustomAssertions.swift in Sources */,
+				E18C4DCD5BEC0F3FFBD8B38A52AC2310 /* GenericAttribute.swift in Sources */,
+				5B4344BC4AD5307D2CB28347A0F7B38B /* Matcher.swift in Sources */,
+				CD192C67532A03D9C21A7C8E4F53F897 /* Mock+Assertions.swift in Sources */,
+				47D94300034C32B3B767A184D1D53870 /* Mock.swift in Sources */,
+				6D51D88DD9A18D5EA45B56F0567F9FE6 /* MockyAssert.swift in Sources */,
+				0CE0452FF26AE44CB6A7F8C95B182EB4 /* Parameter+Literals.swift in Sources */,
+				C743ADC1C4343440429F9FAD71A346F2 /* Parameter.swift in Sources */,
+				51265AAEE3494AF80A93190CEE91B472 /* Policies.swift in Sources */,
+				E3218A7882373C093292073CF9403D82 /* Stubbing.swift in Sources */,
+				9C693C4C06575E13AA9FE6544F68C38F /* SwiftyMocky-dummy.m in Sources */,
+				28A26C0D7D2CF3538BE3F8DAC8A38551 /* SwiftyMockyTestObserver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1737539F40F6D6437982E606D89E2AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Sourcery;
+			targetProxy = 93FCAFDE39B73D0B18AFA2766A7204E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		053FD6646DB2CA90EB68430579DD2463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A7B448A27E0062415F85B6313AC03D9 /* SwiftyMocky.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyMocky/SwiftyMocky-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyMocky/SwiftyMocky-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyMocky/SwiftyMocky.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyMocky;
+				PRODUCT_NAME = SwiftyMocky;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C6F09785A6485CC1557B534BC98E80A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A7B448A27E0062415F85B6313AC03D9 /* SwiftyMocky.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyMocky/SwiftyMocky-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyMocky/SwiftyMocky-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyMocky/SwiftyMocky.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyMocky;
+				PRODUCT_NAME = SwiftyMocky;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7B3F3B50459E01545CD584199252CCD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7D85D7747D7E140A7260343973982AF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046DB16522C17D970111680EC07C6064 /* Build configuration list for PBXNativeTarget "SwiftyMocky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				053FD6646DB2CA90EB68430579DD2463 /* Debug */,
+				6C6F09785A6485CC1557B534BC98E80A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC0319562CD9F92FAD3D8DF9C29A4DAF /* Build configuration list for PBXProject "SwiftyMocky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D85D7747D7E140A7260343973982AF3 /* Debug */,
+				7B3F3B50459E01545CD584199252CCD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD06BDC9B0332D3D462A4AC0D4FC74EE /* Project object */;
+}
