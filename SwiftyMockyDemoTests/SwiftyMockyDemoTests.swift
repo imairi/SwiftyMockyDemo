@@ -47,7 +47,7 @@ class SwiftyMockyDemoTests: XCTestCase {
         user.verify(.update(age: .value(33)), count: 1)
         
         // 引数はチェックしない
-        user.verify(UserMock.Verify.update(age: .any), count: 1)
+        user.verify(.update(age: .any), count: 1)
     }
 
     func test_クロージャーを呼ぶ() {
